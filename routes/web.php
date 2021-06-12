@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Article;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,10 +19,26 @@ Route::get('/', function () {
 });
 
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
 
-// Route::middleware(['auth:sanctum', 'verified'])->get('/fundme', function () {
-//     return view('fundme');
-// })->name('fundme');
+// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+//     return view('dashboard');
+// })->name('dashboard');
+
+Route::group(['middleware' => [
+    'auth:sanctum',
+    'verified',
+]], function() {
+    Route::get('/dashboard', function(){
+        return view('dashboard');
+    })->name('dashboard');
+
+    Route::get('/articles', function(){
+        return view('articles');
+    })->name('articles');
+
+});
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/article', function () {
+//     return view('article');
+// })->name('article');
+
