@@ -37,6 +37,7 @@ class Article extends Component
             'user_id' => auth()->id(),
             'title' => $this->title,
             'body' => $this->body,
+            'photo' => $this->photo,
         ]);
 
         $this->title = '';

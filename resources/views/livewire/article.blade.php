@@ -30,8 +30,12 @@
         </div>
         
         <div class="block px-20">
+
             <label for="" class="">Body</label>
-            <textarea name="" class="w-full block mt-2 p-3 rounded" wire:model="body"></textarea>
+            <textarea id="body" class="w-fullbg-blue-100 block mt-2 p-3 rounded" wire:model="body"></textarea>
+            {{-- <input id="x" type="hidden" wire:model="body">
+            <trix-editor input="x"></trix-editor> --}}
+
             @error('body') <span class="text-red-500"> {{ $message }}</span> @enderror
         </div>
 
@@ -53,7 +57,9 @@
 
                 @if ($article->photo)
                     Photo Preview:
-                    <img src="{{ asset('storage/'.$article->photo) }}" class="w-4/5">
+                    <div class="shrink-0 flex">
+                        <img src="{{ asset('storage/'.$article->photo) }}" class="w-1/2">
+                    </div>
                 @endif
                 {{ $article->photo }}
                 <div>
@@ -81,3 +87,11 @@
         {{ $articles->links() }}
     </div>
 </div>
+<script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+    .create( document.querySelector( '#body' ) )
+    .catch( error => {
+    console.error( error );
+    } );
+</script>

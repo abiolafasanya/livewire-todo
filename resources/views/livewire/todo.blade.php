@@ -3,7 +3,15 @@
         <div>
             <h1 class="text-2xl p-2">Todo App</h1>
         </div>
-        <input type="text" wire:model="title" wire:keydown.enter="addTodo">
+        <div class="block p-3 my-3">
+            <input 
+                type="text" 
+                placeholder="Add todo here"
+                class="lg:w-1/2 rounded" 
+                wire:model="title" 
+                wire:keydown.enter="addTodo"
+            >
+        </div>
 
         @if($errors->has('title'))
             <div class="bg-red-300 text-red-800 mx-5 p-3 border-2 border-red-800">
