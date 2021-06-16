@@ -42,5 +42,11 @@
 
         </div>
     </div>
+
+    <div class="cast border-b border-gray-800">
+        <div class="container mx-auto px-4 py-16 text-gray-100">
+            <h2 class="font-semibold text-4xl">Cast</h2>
+        </div>
+    </div>
     
 </x-movie>
