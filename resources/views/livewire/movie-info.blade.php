@@ -50,12 +50,12 @@
    
                 <div class="mt-8 p-3">
                     <a href="#" wire:click="info()">
-                        <img src="img/1.jpg" alt="image 1" 
+                        <img src="img/barry.jpg" alt="image 1" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Grant Gustin
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -67,12 +67,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/2.jpg" alt="image 2" 
+                        <img src="img/iris.jpg" alt="image 2" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Candice Patton
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -84,12 +84,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/3.jpg" alt="image 3" 
+                        <img src="img/frost.jpg" alt="image 3" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Daniella Panabaker
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -101,12 +101,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/4.jpg" alt="image 4" 
+                        <img src="img/cisco.jpg" alt="image 4" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Carlos Valdes
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -118,12 +118,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/5.jpg" alt="image 5" 
+                        <img src="img/wells.jpg" alt="image 5" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Tom Cavanagh
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -135,12 +135,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/6.jpg" alt="image 6" 
+                        <img src="img/joe.jpg" alt="image 6" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Jesse L. Matin
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -152,12 +152,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/7.jpg" alt="image 7" 
+                        <img src="img/cecile.jpg" alt="image 6" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Daniella Nicolet
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -169,12 +169,12 @@
                </div>
                 <div class="mt-8 p-3">
                     <a href="#">
-                        <img src="img/8.jpg" alt="image 8" 
+                        <img src="img/ralph.jpg" alt="image 6" 
                         class="hover:opacity-75 transition ease-in-out bg-blend-normal rounded">
                     </a>
                     <div class="mt-2">
                         <a href="#" class="hover:text-gray-300">
-                            Movie Title
+                            Hartley Sawyer
                         </a>
                         <div class="flex items-center text-gray-300 text-sm">
                             <span class="material-icons text-yellow-400">star</span>
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                </div>
-            
+                
             </div>
         </div>
     </div>
