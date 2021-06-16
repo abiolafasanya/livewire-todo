@@ -17,6 +17,9 @@ use App\Http\Livewire\Article;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/movie', function () {
+    return view('livewire.movie-info');
+});
 
 
 

@@ -10,4 +10,8 @@ class MoviesPopular extends Component
     {
         return view('livewire.movies-popular');
     }
+
+    public function info(){
+        return redirect()->to('/movie');
+    }
 }
